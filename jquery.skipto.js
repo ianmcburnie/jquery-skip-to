@@ -1,10 +1,10 @@
 /**
  * @file jQuery collection plugin that enhances a skip to link for screen reader navigation
  * @author Ian McBurnie <ianmcburnie@hotmail.com>
- * @version 0.0.1
+ * @version 0.0.2
  * @requires jquery
  */
-(function($, window, document, undefined) {
+(function($, window, document, undefined) { // eslint-disable-line no-unused-vars
     // if the user has pressed the back button, set focus back on the link
     /*
     var hasHistoryAPI = !!(window.history && history.pushState);
@@ -25,17 +25,17 @@
             // set a unique widget id
             // $widget.nextId('skipto');
 
-            $link.on('click', function onClick(e) {
+            $link.on('click', function onClick() {
                 // make target programmatically focussable
                 $target.attr('tabindex', '-1');
 
                 // set programmatic focus on target. Firefox needs a short delay
-                window.setTimeout(function(e) {
+                window.setTimeout(function() {
                     $target.focus();
                 }, 5);
 
                 // remove tabindex on blur
-                $target.one('blur', function(e) {
+                $target.one('blur', function() {
                     $target.removeAttr('tabindex');
                 });
 

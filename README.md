@@ -1,10 +1,10 @@
 # jquery-skip-to
 
 <p>
-    <a href="https://travis-ci.org/ianmcburnie/jquery-skip-to"><img src="https://api.travis-ci.org/ianmcburnie/jquery-skip-to.svg?branch=master" alt="Build Status" /></a>
-    <a href='https://coveralls.io/github/ianmcburnie/jquery-skip-to?branch=master'><img src='https://coveralls.io/repos/ianmcburnie/jquery-skip-to/badge.svg?branch=master&service=github' alt='Coverage Status' /></a>
-    <a href="https://david-dm.org/ianmcburnie/jquery-skip-to"><img src="https://david-dm.org/ianmcburnie/jquery-skip-to.svg" alt="Dependency status" /></a>
-    <a href="https://david-dm.org/ianmcburnie/jquery-skip-to#info=devDependencies"><img src="https://david-dm.org/ianmcburnie/jquery-skip-to/dev-status.svg" alt="devDependency status" /></a>
+    <a href="https://travis-ci.org/makeup-jquery/jquery-skip-to"><img src="https://api.travis-ci.org/makeup-jquery/jquery-skip-to.svg?branch=master" alt="Build Status" /></a>
+    <a href='https://coveralls.io/github/makeup-jquery/jquery-skip-to?branch=master'><img src='https://coveralls.io/repos/makeup-jquery/jquery-skip-to/badge.svg?branch=master&service=github' alt='Coverage Status' /></a>
+    <a href="https://david-dm.org/makeup-jquery/jquery-skip-to"><img src="https://david-dm.org/makeup-jquery/jquery-skip-to.svg" alt="Dependency status" /></a>
+    <a href="https://david-dm.org/makeup-jquery/jquery-skip-to#info=devDependencies"><img src="https://david-dm.org/makeup-jquery/jquery-skip-to/dev-status.svg" alt="devDependency status" /></a>
 </p>
 
 jQuery collection plugin that enhances a skip to link for screen reader navigation.
@@ -41,11 +41,11 @@ Execute `npm run` to view all available CLI scripts.
 
 ## CI Build
 
-https://travis-ci.org/ianmcburnie/jquery-skip-to
+https://travis-ci.org/makeup-jquery/jquery-skip-to
 
 ## Code Coverage
 
-https://coveralls.io/github/ianmcburnie/jquery-skip-to?branch=master
+https://coveralls.io/github/makeup-jquery/jquery-skip-to?branch=master
 
 ## Test Reports
 
